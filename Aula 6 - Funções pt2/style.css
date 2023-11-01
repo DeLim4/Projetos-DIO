@@ -1,0 +1,23 @@
+*{padding: 0;
+margin: 0;}
+
+.container {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    ma
+    left: 15px;
+    z-index: 1; /* Garante que o h1 fique acima do hr */
+    background-color: white; /* Adicionado para melhorar a visibilidade */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+hr {position: absolute;
+    top: 5rem;
+    width: 100%;
+    border: 1px solid black;
+}
